@@ -1,6 +1,6 @@
 # Welcome to my maker portfolio repo! 👋
 
-Here, I included any relevant files and supplementary instructions of use. Documentation of the development journey and demos video is included in SlidesRoom.
+In this repo, I included any relevant project files and supplementary instructions of use. Documentation of the development journey and demos video is included in SlidesRoom.
 
 ## Want to play with a tool?
 
