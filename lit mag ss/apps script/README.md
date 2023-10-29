@@ -1,6 +1,6 @@
 # Apps Script for literary magazine spreadsheet
 
-Apps Script for various custom functions used in the spreadsheet.
+Apps Script for various custom functions used in the spreadsheet. In GitHub, separated into two directories: macros (one-time functions utilized to make the initial spreadsheet design) and utils (functions utilized by users of spreadsheet).
 
 ![image](https://github.com/ACulturedSwine/maker-portfolio/assets/98501518/d709148e-02d0-4c8b-b65a-ef81fd701722)
 
