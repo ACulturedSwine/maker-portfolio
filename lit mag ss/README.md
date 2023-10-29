@@ -1,6 +1,9 @@
+> Note: Below are the instructions for setting up the literary magazine. Of course, since you're (probably) not part of the literary magazine, you don't need to follow the "creating the form" bit. Just make sure to go to SETTINGS to install the triggers!
+> Here's the link to the literary magazine spreadsheet demo: https://bit.ly/litmagdemo.
+
 # Creating the spreadsheet (do this BEFORE the form)
 
-1. Make a copy of the spreadsheet (https://bit.ly/litmagdemo) and put it into the folder for this year’s Lit Mag. Please make sure that you are doing this with your school account, as IPSD 204 doesn’t let you run Apps Scripts owned by a user outside of the organization!
+1. Make a copy of the spreadsheet and put it into the folder for this year’s Lit Mag. Please make sure that you are doing this with your school account, as the school district doesn’t let you run Apps Scripts owned by a user outside of the organization!
 
 2. Next, head on to the SETTINGS tab to set up the triggers (pressing the ‘thumbs up’ button next to Setup Triggers). This ensures that the features categorizing each submission, daily quote, highlighting invalid submissions, templating, and hiding sensitive information work. Now, we’re ready to create the form!
 
