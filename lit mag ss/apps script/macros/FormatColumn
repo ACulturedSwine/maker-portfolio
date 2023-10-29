@@ -1,0 +1,16 @@
+genres = ['Short Story Fiction','Poetry','Personal Essay','Other Prose',
+  'Photography','Drawing','Painting','Mixed Media','Other'];
+
+rn = 'R2:S';
+
+function myFunction() {
+  // (?<=[1-5]).*?(?=[a-zA-Z])
+  ss = SpreadsheetApp.getActiveSpreadsheet();
+
+  genres.forEach(g => {
+    sh = ss.getSheetByName(g);
+    myRn = sh.getRange(rn);
+
+    myRn.setVerticalAlignment("top");
+  });
+}
