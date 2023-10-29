@@ -2,7 +2,7 @@
     <ul>
         <li><a href="/" id = "logoContainer">sophli</a></li>
         <li><a href="/about.php">about</a></li>
-        <li><a href="#">music</a></li>
+        <li><a href="/music.php">music</a></li>
         <li><a href="/bites.php">bites</a></li>
     </ul>
   </nav>
