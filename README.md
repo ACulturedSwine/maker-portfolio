@@ -10,7 +10,7 @@ Here, I included any relevant files and supplementary instructions of use. Docum
 
 **gink-go! (a scioly search tool):** https://home.sophli.me/bites/scioly-search.
 
-## While you're at it, here's some music to enjoy:
+## While you're at it, here's some music to enjoy
 
 https://home.sophli.me/music
 
