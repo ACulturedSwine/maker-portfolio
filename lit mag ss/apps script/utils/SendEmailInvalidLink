@@ -1,0 +1,60 @@
+bccColumn = 'J4:J';
+
+
+function sendEmailInvalidLink() {
+  ss = SpreadsheetApp.getActiveSpreadsheet();
+  recipient = '';
+  bcc = retrieveElements(ss.getRange(bccColumn));
+  subject = 'Update submission';
+  body = "<p>Hello! This is <i>The Essence</i> team.</p><p>We have received your submission, although the link to the submission cannot be accessed. Please change your link in the form you submitted for that piece (check your email for the past forms filled out), and notify us afterwards!</p><p>Thank you, and have a great day!</p><p><i>The Essence</i></p>";
+
+  const options = {
+    htmlBody: body,
+    bcc: bcc
+  // inlineImages: {
+    // yourImageKey: YOUR_IMAGE_BLOBSOURCE
+  // }
+  }
+  var draft = GmailApp.createDraft(recipient, subject, body, options);
+  SpreadsheetApp.getUi().alert('Email draft made! Check the drafts section of your Gmail app to finalize and send the email!');
+}
+
+function retrieveElements(rn){
+  var list = '';
+  const numRows = rn.getNumRows();
+  const numCols = rn.getNumColumns();
+  // loop through each ROW (not column), looking from left to right
+  for (let i = 1; i <= numCols; i++) {
+    for (let j = 1; j <= numRows; j++) {
+      const cell = rn.getCell(j, i);
+      val = cell.getValue();
+      if (val.trim() != ""){
+        list += val;
+        list += ', ';
+      }
+      else{
+        // break out of row if blank rating (but still check through other rows)
+        // console.log(cell.getA1Notation());
+        broken = true;
+        break;
+      }
+    }
+    if (broken){
+      break;
+    }
+  }
+  // trim end of list (", ") if not empty
+  if (list != ''){
+    list = list.slice(0, -2);
+  }
+  return list;
+}
+/*
+function renderComposeMail() {
+  // var button = CardService.newTextButton() .setText('Reply') .setComposeAction(action, CardService.ComposedEmailType.STANDALONE_DRAFT);
+
+  var draft = GmailApp.createDraft("sophieli7588@k12.ipsd.org", "subject", "body");
+  var card = CardService.newComposeActionResponseBuilder().setGmailDraft(draft);
+  return card.build();
+}
+*/
