@@ -6,5 +6,6 @@
     <h1>bites</h1>
     <p>lil code projects</p>
     <a href='/bites/scioly-search.php' style='margin-left: 30px'>gink-go! (a scioly search tool)</a>
+    <a href="https://doghouse.sophli.me/">doghouse</a>
 </body>
 </html>
