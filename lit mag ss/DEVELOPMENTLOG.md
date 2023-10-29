@@ -1,4 +1,4 @@
-# (Haphazard) Development Log for Literary magazine 🙃
+# (Haphazard) Development Log for Literary Magazine Spreadsheet 🙃
 ## TODO (general process)
 - [ ] Ask Schneider/Lit Mag members about
   - [ ] What features to add
