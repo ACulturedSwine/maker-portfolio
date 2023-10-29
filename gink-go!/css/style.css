@@ -1,0 +1,116 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color:#637e5e;
+    user-select: none;
+}
+
+body {
+    background-color: #f0e9df;
+}
+
+body * {
+    margin-left: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 25px;
+    color: #637e5e;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+p, ul, a {
+    font-size: 15px;
+}
+
+a {
+    padding: 0;
+}
+
+a:hover {
+    background-color: #99B590;
+}
+
+em, strong {
+    padding: 0;
+}
+
+#logo { /* Logo styles are used if logo-container has a picture. */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#logo a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#logo img {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+nav {
+    padding: 0px;
+    color: #fff;
+    background-size: cover;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+nav * {
+    margin-left: 0;
+}
+
+nav a {
+    display: block;
+    color: #637e5e;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li.dropdown {
+    position: relative;
+    min-height: 40px; /* Adjust this value as needed */
+}
+ 
+nav ul li.dropdown > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    
+    background-color: #fff;
+    outline: 2px solid #8EB387;
+    vertical-align: top;
+}
+
+nav ul li.dropdown ul a {
+    color:#b07946;
+}
+
+nav ul li.dropdown ul a:hover {
+    background-color:#e4e4e4;
+}
+
+nav ul li.dropdown:hover ul {
+    display: block;
+}

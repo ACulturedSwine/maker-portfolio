@@ -1,0 +1,11 @@
+#no-searches-msg:empty {
+    display: none;
+}
+
+#clear-searches {
+    margin-left: 40px;
+}
+
+select, input, button {
+    font-size: 11px;
+}
