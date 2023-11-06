@@ -210,7 +210,7 @@ function rawListToDict(raw) {
 
     let currentFamily = "";
 
-    const treeNameRegex = /^([\w\s]+)\s*\((.+)\)/;
+    const treeNameRegex = /^([\w\s’-]+)\s*\((.+)\)$/;
 
     for (let i = 0; i < lines.length; i++) {
         if (lines[i] === '') continue;
